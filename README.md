@@ -26,7 +26,9 @@ Quando iniciar o VisualCode, ele irá sugerir a instalação das mesmas.
 
 ### Sobre a aplicação
 **- Interface**
+
 [-> Site oficial e instruções e implementação](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
 A aplicação deve utilizar a biblioteca Bootstrap para a criação dos elementos.
 No menu ao lado esquerdo do site, contém toda a documentação e exemplos de implementação dos componentes em tela.
 
@@ -34,15 +36,18 @@ No menu ao lado esquerdo do site, contém toda a documentação e exemplos de im
 O arquivo de CSS deve ser separado do arquivo Html.
 
 **-JavaScript**
+
 [-> Guia W3 Schools](https://www.w3schools.com/js/default.asp)
+
 Devem ser utilizadas funcionalidades atuais para o desenvolvimento ES6.
 
 Para as requisições da API, deve ser utilizada a Fetch API
+
 [-> Guia Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 Exemplo de utilização:
 ```js
-async function GetMovies(searchTerm) {
+async function SearchMovies(searchTerm) {
 	// montando a estrutura da chamada.
 	const req = await fetch(`http://www.omdbapi.com/?apikey=[yourkey]&s=${searchTerm}`, { method: "GET" });
 	// verifica se a requisição retornou um erro
