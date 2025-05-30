@@ -64,3 +64,5 @@ async function SearchMovies(searchTerm) {
 ```
 Exemplo de resposta no console do navegador.
 ![response](https://img001.prntscr.com/file/img001/OhKPmpohScShyaOdz1-yqw.png)
+
+Good Luck ;)
